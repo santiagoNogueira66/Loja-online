@@ -1,0 +1,77 @@
+form {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #081D3C;
+    width: 100%;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+span {
+    color: #fff;
+    margin-left: 1vh;
+}
+
+input[type="text"]{
+    padding: 1vh;
+    border-radius: 20px;
+    width: 50%;
+}
+
+input[type="email"]{
+    padding: 1vh;
+    border-radius: 20px;
+    width: 50%;
+}
+h3{
+    text-align: center;
+    margin-left: 2vh;
+    color: #fff;
+}
+.span-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type="radio"]{
+    display: inline-block;
+    align-items: center;
+    margin-left: 5vh;
+}
+.input-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+
+button {
+    background-color: #3f48cc;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20vh;
+    padding: 0.5vh;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 5vh;
+}
+
+.meu-botao:hover{
+    transform:scale(1.1);
+    border: 2px solid #00ffff;
+}

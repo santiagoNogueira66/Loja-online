@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div id="formModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <form action="salvar" method="get">
+                <div class="input-box">
+                    <span>Nome:</span>
+                    <input type="text" name="nome_cliente" id="nome_cliente">
+                </div>
+                <div class="input-box">
+                    <span>Email:</span>
+                    <input type="email" name="email_cliente" id="email_cliente">
+                </div>
+                <div class="input-box">
+                    <span>Telefone:</span>
+                    <input type="text" name="telefone_cliente" id="telefone_cliente">
+                </div>
+                <div class="input-box">
+                    <span>CPF:</span>
+                    <input type="text" name="cpf_cliente" id="cpf_cliente">
+                </div>
+                <h3>Forma de pagamento</h3>
+                <div class="input-box">
+                <input type="radio" name="pagamento" id="pix">
+                <span>pix</span>
+                <input type="radio" name="pagamento" id="boleto">
+                <span>boleto</span>
+                <input type="radio" name="pagamento" id="cartão">
+                <span>cartão</span>
+                </div>
+                <div class="btn">
+                    <button class="meu-botao" type="button">Salvar</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+<script src="../javaScript/script.js"></script>
+</body>
+</html>
